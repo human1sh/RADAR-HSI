@@ -1,0 +1,24 @@
+gitignore_content = """# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+.cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data & Large Files
+!data/.gitkeep
+outputs/*.png
+!outputs/.gitkeep
+models/*.pt
+!models/.gitkeep
+notebooks/*.ipynb
+skills/
+
+# IDE specific files
+.vscode/
+"""
