@@ -64,7 +64,7 @@ Combines spatial superpixel segmentation with unsupervised intra-class clusterin
 ## Repository Structure
 
 ```text
-Pavia_Hyperspectral/
+RADAR-HSI/
 ├── src/
 │   ├── dataset.py                      # PaviaU .mat ingestion, normalization, and spatial splits
 │   ├── phase1_baseline.py              # SAM, PCA+SVM, and 1D-CNN leakage benchmarks
