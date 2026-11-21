@@ -1,4 +1,4 @@
-gitignore_content = """# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -11,14 +11,20 @@ __pycache__/
 .ipynb_checkpoints
 
 # Data & Large Files
+data/*.mat
 !data/.gitkeep
+
+# Experiment artifacts & weights
 outputs/*.png
 !outputs/.gitkeep
 models/*.pt
 !models/.gitkeep
+
+# Notebooks & agent workspaces
 notebooks/*.ipynb
 skills/
 
 # IDE specific files
 .vscode/
-"""
+.idea/
+.DS_Store
